@@ -7,11 +7,11 @@ def save_minute_data(data):
     try:
         # Establish a connection to the database
         conn = psycopg2.connect(
-            database="postgres",
-            user="postgres",
-            password="Harshal555@Desai",
-            host="tsdb.derivedged.com",
-            port="5432"
+            database="*********",
+            user="*********",
+            password="*********",
+            host="*********",
+            port="*********"
         )
     except psycopg2.Error as e:
         print("Unable to connect to the database")
